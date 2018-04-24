@@ -1,0 +1,33 @@
+# Test if the program properly ends
+# and tells who wins when it should.
+
+java -ea ataxx.Main
+
+block b6
+block c6
+block d6
+block b5
+block b4
+manual blue
+start
+a7-a5
+a1-a3
+a5-a4
+g7-e7
+g1-g3
+e7-g7
+g3-g2
+g7-g5
+g3-g4
+@<Red wins.
+dump
+@<===
+@<  - - - - - - -
+@<  - X X X X X -
+@<  r X - - - X r
+@<  r X - - - X r
+@<  r X - - - X r
+@<  - X X X X X r
+@<  - - - - - - -
+@<===
+quit

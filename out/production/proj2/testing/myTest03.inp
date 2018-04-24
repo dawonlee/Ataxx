@@ -1,0 +1,20 @@
+# Test if I multiple blocks in the same
+# spot is legal.
+
+java -ea ataxx.Main
+
+block c2
+block c2
+block e2
+block c6
+dump
+@<===
+@<  r - - - - - b
+@<  - - X - X - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - - - - - -
+@<  - - X - X - -
+@<  b - - - - - r
+@<===
+quit
